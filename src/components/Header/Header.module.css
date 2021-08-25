@@ -1,13 +1,31 @@
 .header{
-    grid-area: h;
-    background-color: green;
-  }
-  .header img{
-    width: 60px;
-  }
-  .loginBlock{
-    float: right
-  }
-  .loginBlock a {
-    color: #fff;
-  }
+  position: relative;
+  grid-area: h;
+  background-color: #50e3c2;
+}
+.header img{
+  width: 60px;
+}
+.loginBlock{
+  position: absolute;
+  top: 15px;
+  right: 80px;
+}
+.loginBlock button {
+  margin: 0 0 0 200px;
+  border: 1px solid gray;
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  border-color: #8F8B8E;
+  box-shadow: 0 0 40px 40px #8F8B8E inset, 0 0 0 0 #8F8B8E;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+button:hover {
+  box-shadow: 0 0 10px 0 #8F8B8E inset, 0 0 10px 4px #8F8B8E;
+}
+.loginBlock a {
+  color: black;
+  font-size: 24px;
+}

@@ -24,7 +24,7 @@ const AddPostForm = (props) => {
 const MyPosts = (props) => {
 
   let postsElements = 
-  props.prop.map( post =>  <Post message={post.message} likeCount={post.likeCount} />)
+  props.prop.map( post =>  <Post message={post.message} likeCount={post.likeCount} key={post.id}/>)
 
   let addPost = (values) => {
     props.addPost(values.newPostText);

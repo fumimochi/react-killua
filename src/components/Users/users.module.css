@@ -1,8 +1,26 @@
+.users {
+    padding-left: 150px;
+    padding-top: 20px;
+}
+.photoAndStatusName {
+    display: flex;
+}
+.nameStatus {
+    padding-left: 15px; 
+}
+.prompt {
+    padding-right: 10px;
+    font-style : italic;
+}
 .userPhoto {
     width: 100px;
     height: 100px;
 }
-
+.userName {
+    font-size: 24px;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    text-decoration: underline;
+}
 .selectedPage {
     font-weight: bold;
 }

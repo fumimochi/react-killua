@@ -1,0 +1,17 @@
+.paginator {
+    display: flex;
+    justify-content: center;
+    margin: 50px 10px;
+}
+.pageNumber {
+    padding: 5px;
+    border: 1px solid grey;
+    background-color: #D5DBDB;
+    color: #5499C7;
+    cursor: progress;
+}
+
+.pageNumber.selectedPage {
+    font-weight: bold;
+    border-color: black;
+}

@@ -2,21 +2,43 @@
     display: grid;
     grid-template-columns: 3fr 9fr;
 }
+.container {
+    margin: 50px 70px;
+}
 .dialogsItems {
     padding: 10px;
 }
 .dialogsItems .active { 
     color: gold;
 }
+.message {
+    padding-bottom: 30px;
+}
 .messages {
+    margin: 20px 0 0 200px;
     padding: 10px;
 }
 .messages .message {
     color: white;
 }
-
 .dialog img {
     width: 30px;
     height: 30px;
     border-radius: 30px;
+    padding: 0 15px 0 0;
+}
+.dialog {
+    display: flex;
+    margin-top: 20px;
+    border-bottom: 3px #7D6608 solid;
+}
+.userImage {
+    margin-bottom: 23px;
+}
+.userName { 
+    margin-left: 17px;
+}
+.userName a{
+    color: #EEE5B6;
+    text-decoration: none;
 }

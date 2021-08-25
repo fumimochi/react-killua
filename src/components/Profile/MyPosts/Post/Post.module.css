@@ -1,7 +1,13 @@
 .item {
+  display: flex;
   color:chartreuse;
 }
-
+.message {
+  margin-left: 7.5px;
+}
+.likes {
+  margin-left: 5px;
+}
 .item img {
   width: 30px;
   height: 30px;

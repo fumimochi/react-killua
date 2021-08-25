@@ -4,10 +4,12 @@ import prof from './Post.module.css';
 const Post = (props) => {
     return (
            <div className={prof.item}>
-             <img src='https://e7.pngegg.com/pngimages/627/693/png-clipart-avatar-internet-meme-avatar-heroes-photography.png'/>
-             {props.message}
+             <img src='https://www.pinpng.com/pngs/m/5-52287_cool-avatar-png-picture-illustration-transparent-png.png'/>
              <div>
-              <span>{props.likeCount} likes</span>
+               <div className={prof.message}>
+                {props.message}
+              </div>
+              <span className={prof.likes}>{props.likeCount} likes</span>
              </div>
            </div>
     )

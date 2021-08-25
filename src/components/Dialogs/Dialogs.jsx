@@ -28,14 +28,18 @@ const Dialogs = (props) => {
     if(!props.isAuth) return <Redirect to={'/login'}/>;
 
     return (
-        <div className={s.dialogs}>
-            <div className={s.dialogsItems}>
-                { dialogsElements }
-            </div>
-            <div>
-                <div className={s.messages}>
-                    <div>{ messagesElements }</div>
-                    <AddMessageFormRedux onSubmit={addNewMessage}/>
+        <div className={s.container}>
+            <div className={s.dialogs}>
+                <div className={s.dialogsItems}>
+                    { dialogsElements }
+                </div>
+                <div>
+                    <div className={s.messages}>
+                        <div className={s.messagesItems}>
+                            { messagesElements }
+                            <AddMessageFormRedux onSubmit={addNewMessage}/>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -50,7 +54,7 @@ const AddMessageForm = (props) => {
                 validate={ [required, maxLength70] } />
             </div>
             <div>
-                <button>Add Message</button>
+                <button>Add new note</button>
             </div>
         </form>
     )

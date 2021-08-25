@@ -1,8 +1,39 @@
 .nav{
   grid-area: n;
-  background-color: aqua;
+  background-color: #7b7bfc;
 }
-
+.item {
+  display: inline-block;
+  margin: 20px 0 20px 85px;
+  font-size: 32px;
+}
+.title {
+  margin: 0 0 0 -35px;
+  display: none;
+}
+.item:hover .title{
+  display: block;
+  font-size: 38px;
+  transition: all 0.4s ease;
+}
+.item:hover .title__big{
+  display: block;
+  font-size: 38px;
+  transition: all 0.4s ease;
+}
+.item:hover .big__2{
+  display: block;
+  font-size: 38px;
+  transition: opacity 1s;
+}
+.big__2 {
+  margin: 0 0 0 -50px;
+  display: none;
+}
+.title__big {
+  margin: 0 0 0 -70px;
+  display: none;
+}
 .item a {
   color: white;
   text-decoration: none;

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.music {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', cursive;
+    font-size: 36px;
+}
+text {
+    padding: 10px;
+}

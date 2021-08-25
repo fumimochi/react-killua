@@ -12,3 +12,24 @@
     padding: 5px;
     color:red;
 }
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.checkRemember {
+    display: flex;
+}
+span {
+    margin-left: 10px;
+}
+.button {
+    margin: 18px;
+    width: 100px;
+    height: 25px;
+}

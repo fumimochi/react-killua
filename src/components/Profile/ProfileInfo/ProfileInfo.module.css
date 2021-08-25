@@ -1,7 +1,72 @@
 .descriptionBlock {
     padding: 10px;
 }
-.lookForJob{
+.photoNameStat {
+    display: flex;
+}
+.name {
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.status {
+    position: absolute;
+    margin-left: 10px;
+    top: 140px;
+    left: 800px;
+}
+.photoChange {
+    position: absolute;
+    top: 290px;
+    left: 562px;
+}
+.infoChange {
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: #b4bbc0;
+    box-shadow: 0 -3px #E5E7E9 inset;
+    transition: 0.2s;
+}
+.infoChange:hover {
+    background: #E5E7E9;
+}
+.infoChange:active {
+    background: #D5DBDB;
+    box-shadow: 0 3px #D5DBDB inset;
+}
+.infoButton {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+}
+.lookForJob {
     width: 50px;
     height: 50px;
+}
+.profilePhoto {
+    width: 220px;
+    height: 200px;
+}
+.formSummaryError {
+    border: red 3px solid;
+    padding: 5px;
+    color:red;
+}
+.container {
+    display: flex;
+    float: right;
+}
+.button {
+    margin-top: 90px;
+    margin-right: 30px;
+}
+.saveButton {
+    position: absolute;
+    top: 380px;
+    right: 670px;
+    width: 100px;
+    height: 30px;
+    font-weight: 700;
 }
